@@ -141,6 +141,14 @@ cd pi-agent-study
 
 ---
 
+### 场景 D：一键发布到 GitHub Pages 在线知识站与演播胶片
+> 💬 **你**：「老王，把这次学完的框架内容整理成在线专栏，一键发布到我的 knowledge-notes 和 knowledge-notes-deck，更新我的 github.io！」
+
+- **在线知识库 (Site)**：将提炼好的结构化 Markdown 写入 `04-outputs/site-docs/`，并一键同步到本地 `knowledge-notes/content/`，推送到 GitHub 触发 Astro CI/CD 自动部署至 `https://<user>.github.io/knowledge-notes/`！
+- **演示胶片 (Deck)**：生成高交互演播页面写入 `04-outputs/deck-slides/`，同步到 `knowledge-notes-deck/` 部署至 `https://<user>.github.io/knowledge-notes-deck/`！
+
+---
+
 ## 6. 核心目录与文件职能速查表
 
 | 目录/文件 | 你的动作 | Agent 动作 |
