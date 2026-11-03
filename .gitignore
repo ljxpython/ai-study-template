@@ -35,6 +35,11 @@ build/
 01-resources/raw/*
 !01-resources/raw/.gitkeep
 
+# Cloned open-source baseline repositories (ignore large clones)
+02-labs/open-source/*
+!02-labs/open-source/README.md
+!02-labs/open-source/.gitkeep
+
 # Large raw packages (if needed to ignore huge models/cache)
 *.tar.gz
 *.ckpt
